@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
-include "bangsat.php";
-ulang:
-// function change(){
+
+
+// function.php(){
 echo color("green","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   []\n");
 echo color("yellow","[] Format Penulisan Nomor 62xxxxxxx  []\n");
         $nama = nama();
