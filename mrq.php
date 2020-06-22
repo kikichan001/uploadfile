@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('Asia/Jakarta');
+date_default_timezone_set('Asia/Surabaya');
 include "function.php";
 ulang:
 // function change(){
@@ -67,7 +67,7 @@ echo color("yellow","[] Format Penulisan Nomor 62xxxxxxxx  []\n");
         echo "\n".color("white"," Please wait");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
-        sleep(70);
+        sleep(35);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD2206"}');
         $message = fetch_value($code1,'"message":"','"');
@@ -81,7 +81,7 @@ echo color("yellow","[] Format Penulisan Nomor 62xxxxxxxx  []\n");
         echo "\n".color("white"," Please wait");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
-        sleep(70);
+        sleep(35);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PAKEGOFOOD2206"}');
         $message = fetch_value($code1,'"message":"','"');
